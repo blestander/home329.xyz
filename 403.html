@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forbidden</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+        <style>
+            body {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                background-color: #2c2c2c;
+                color: whitesmoke;
+                text-align: center;
+            }
+            .statusCode {
+                font-size: 255px;
+            }
+            .statusText {
+                font-size: 50px;
+            }
+            @media (max-width: 450px) {
+                .statusCode {
+                    font-size: 200px;
+                }
+            }
+            @media (max-width: 375px) {
+                .statusCode {
+                    font-size: 150px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            <span class="statusCode">403</span>
+            <br />
+            <span class="statusText">Forbidden</span>
+        </h1>
+        <p>
+            You may not access this service outside of the home network!
+        </p>
+    </body>
+</html>
