@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home329: Minecraft Status</title>
+        <link type="text/css" rel="stylesheet" href="/style.css" />
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+        <script type="module" src="/mcstatus.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Home329 Minecraft Status</h1>
+            <p id="loading">Loading...</p>
+            <div id="online" class="hidden">
+                <h2>Online</h2>
+
+                <!-- MOTD and Icon -->
+                <h3 id="motd"></h3>
+                
+                <!-- Players -->
+                <h3>
+                    Players (
+                    <span id="currentPlayerCount"></span>
+                    /
+                    <span id="maxPlayerCount"></span>
+                    )
+                </h3>
+                <ul id="players">
+                </ul>
+
+                <!-- Mods -->
+                <div id="mods">
+                    <h3>Mods</h3>
+                    <ul id="modList">
+                    </ul>
+                </div>
+            </div>
+            <h2 id="offline" class="hidden">Offline</h2>
+        </main>
+    </body>
+</html>
